@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='userinfo' >
+    <image src="./logo_register.png" style='width:80rpx; height:110rpx' ></image>
+  </view>
+  <view class='center-layout'> 
+    <form>
+    <input placeholder='请输入注册或登录手机号' bindinput='inputphonenumber' placeholder-style='color:#cccccc'></input>
+      <view style='width:650rpx; height:0.5rpx; background-color:#eeeeee;margin-top:20rpx '></view>
+    </form>
+  </view>
+  <button bindtap='login' size='default' class='btnbackground'>登录</button>
+  
+</view>

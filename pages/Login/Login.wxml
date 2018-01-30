@@ -1,0 +1,14 @@
+<!--pages/MiQian/Login.wxml-->
+<view class='container'>
+  <text class='login-style'>{{phone}}</text>
+  <view style='width:650rpx; height:0.5rpx; background-color:#eeeeee;'></view>
+  <input class='login-style' placeholder-style='color:#999999' placeholder='请输入登录密码' bindinput='password'> 
+  <!-- <image src='../index/logo_register.png' style='display:flex; justify-content: flex-end'></image>  -->
+  </input>
+  <view style='width:650rpx; height:0.5rpx; background-color:red;'></view>
+  <view class='login-style'>
+    <label class='labelstyle' bindtap='forgetpwd'>忘记密码?</label>
+  </view>
+  
+  <button bindtap='login' size='default' class='btnbackground'>登录</button>
+</view>
