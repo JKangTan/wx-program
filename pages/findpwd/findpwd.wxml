@@ -1,2 +1,17 @@
 <!--pages/findpwd/findpwd.wxml-->
-<text>pages/findpwd/findpwd.wxml</text>
+<view>
+  <form>
+   <label wx:if="{{isMsgSend}}">验证码已发送至手机号:{{phoneNumber}}        </label>
+   <view class='felx-view'>
+     <input class='input' placeholder='请输入验证码' placeholder-style='color:#999999'></input>
+     <label class='msg-send'>获取验证码</label>
+   </view> 
+   <view class='felx-view'>
+     <input></input>
+     <image></image>
+   </view> 
+   <view class='felx-view'>
+     <input></input>
+   </view> 
+  </form>
+</view>

@@ -5,7 +5,7 @@ var HTTP = require('../../utils/HTTPManager.js').HTTP;
 
 Page({
   data: {
-    phonenumber:'',
+    phonenumber:'18355552509',
   },
   inputphonenumber:function(e){
     console.log(e.detail.value),
@@ -20,12 +20,12 @@ Page({
         console.log("成功", responseData.data["status"], that.data.phonenumber);
         if(responseData.data["status"] == 0){
           wx.navigateTo({
-            url: '../Login/Login' + '?' + "phone=" + that.data.phonenumber,
+            url: '../Login/Login' + '?phone=' + that.data.phonenumber,
             
           })
         }else{
           wx.navigateTo({
-            url: '',
+            url: '../findpwd/findpwd' + '?phone=' + that.data.phonenumber+'&type=registe',
           })
         }
       },function(){

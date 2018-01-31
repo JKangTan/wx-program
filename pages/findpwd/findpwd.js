@@ -5,14 +5,19 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    phoneNumber: '',
+    isMsgSend: false,
+    opType:'',
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    this.setData({
+      phoneNumber: options.phone,
+      opType: options.type,
+    })
   },
 
   /**

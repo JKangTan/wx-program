@@ -98,7 +98,12 @@ Page({
   },
   forgetpwd: function(e){
     wx.navigateTo({
-      url: '../findpwd/findpwd',
+      url: '../findpwd/findpwd' +'?phone='+this.data.phonenumber+'&type=registe',
     })
-  }
+  },
+  change: function(e){
+    this.setData({
+      secureEntery : !this.data.secureEntery
+    })
+  },
 })

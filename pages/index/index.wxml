@@ -5,7 +5,7 @@
   </view>
   <view class='center-layout'> 
     <form>
-    <input placeholder='请输入注册或登录手机号' bindinput='inputphonenumber' placeholder-style='color:#cccccc'></input>
+    <input placeholder='请输入注册或登录手机号' bindinput='inputphonenumber' placeholder-style='color:#cccccc' value='{{phonenumber}}'></input>
       <view style='width:650rpx; height:0.5rpx; background-color:#eeeeee;margin-top:20rpx '></view>
     </form>
   </view>

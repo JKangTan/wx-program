@@ -1,1 +1,25 @@
 /* pages/findpwd/findpwd.wxss */
+
+.flex-view{
+  display: flex;
+  justify-content: center;
+  margin: 30rpx,20rpx,10rpx;
+  padding: 20rpx;
+  height: 60rpx;
+}
+
+.msg-send{
+  color: #2395FF;
+  font: 26px;
+  background-color: #ffffff;
+  border-color: white;
+  margin: 10rpx;
+}
+
+.input{
+  width: 650rpx;
+  height: 60rpx;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}

@@ -4,6 +4,8 @@
   margin: 30rpx;
   width: 600rpx;
   text-align: left;
+  /* background-color: orange; */
+  /* display: flex; */
 }
 .btnbackground {
   width: 650rpx;
@@ -21,3 +23,29 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.hide-show{
+   display: flex;  
+  height: 40rpx;
+  width: 50rpx;
+  margin-right: 0;
+  justify-content: flex-end; 
+  
+}
+
+.bottom-line{
+  display: flex;
+  height: 0.5rpx;
+  width: 600rpx;
+  background-color: #eeeeee;
+  color: #eeeeee;
+  justify-content: center; 
+}
+.input{  
+  width:640rpx;  
+  height:60rpx;  
+  line-height:40px;  
+  text-align: left;
+  margin-top: 0px;
+}  
+    
